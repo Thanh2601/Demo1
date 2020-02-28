@@ -5,12 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {TrangChuComponent} from './Components/TrangChu/trangchu.component';
 import {GioiThieuComponent} from './Components/Gthieu/gioithieu.component';
+import {LienHeComponent} from './lien-he/lien-he.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     TrangChuComponent,
-    GioiThieuComponent
+    GioiThieuComponent,
+    LienHeComponent
   ],
   imports: [
     BrowserModule,
