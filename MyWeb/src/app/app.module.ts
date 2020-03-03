@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import {TrangChuComponent} from './Components/TrangChu/trangchu.component';
 import {GioiThieuComponent} from './Components/Gthieu/gioithieu.component';
 import {LienHeComponent} from './lien-he/lien-he.component';
+import { MyComponent } from './my/my.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import {LienHeComponent} from './lien-he/lien-he.component';
     AppComponent,
     TrangChuComponent,
     GioiThieuComponent,
-    LienHeComponent
+    LienHeComponent,
+    MyComponent
   ],
   imports: [
     BrowserModule,
