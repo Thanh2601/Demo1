@@ -1,0 +1,19 @@
+
+.menu li {
+    color: #000000;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: -5px;
+  }
+
+  .menu a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: block;
+  }
+  .menu a:hover {
+    background: rgb(0, 0, 0);
+    color: #333;
+  }
