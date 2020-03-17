@@ -1,19 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
-.menu li {
-    color: #000000;
-    display: inline-block;
-    width: 120px;
-    height: 40px;
-    line-height: 40px;
-    margin-left: -5px;
-  }
+body {
+  font-family: sans-serif;
+}
+/*==Menu==*/
 
-  .menu a {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    display: block;
-  }
-  .menu a:hover {
-    background: rgb(0, 0, 0);
-    color: #333;
-  }
+#menu ul {
+  list-style-type: none;
+}
