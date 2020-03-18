@@ -8,6 +8,16 @@ body {
 }
 /*==Menu==*/
 
-#menu ul {
+#menu{
   list-style-type: none;
 }
+
+#menu ul a:hover
+{
+  color: white;
+}
+
+form {
+  
+}
+
